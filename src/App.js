@@ -4,6 +4,7 @@ import ResponsiveAppBar from './components/ResponsiveAppBar'
 import { Container } from '@mui/material'
 import Banner from './components/Banner'
 import Cards from './components/Cards'
+import TrickyPart from './components/TrickyPart'
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<ResponsiveAppBar></ResponsiveAppBar>
 			<Banner></Banner>
 			<Cards></Cards>
+			<TrickyPart></TrickyPart>
 		</div>
 	)
 }

@@ -1,4 +1,4 @@
-import { Container } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 import React from 'react'
 import bgImage from '../assets/images/Transfile.jpg'
 // import Paper from 'material-ui/Paper'
@@ -12,7 +12,7 @@ const Banner = () => {
 		paperContainer: {
 			backgroundImage: `url(${bgImage})`,
 			backgoundRepeat: 'no-repeat',
-			imageSize: 'cover',
+			// imageSize: 'cover',
 		},
 	}
 	return (
@@ -22,7 +22,15 @@ const Banner = () => {
 			sx={{ backgroundColor: 'blueviolet', padding: '2px', height: '89vh' }}
 			style={styles.paperContainer}
 		>
-			<h1>Hello</h1>
+			<Typography
+				variant='h2'
+				display='flex'
+				justifyContent='center'
+				alignItems='center'
+				height='100%'
+			>
+				Hello! Eid Mubarak !
+			</Typography>
 		</Container>
 	)
 }
