@@ -5,6 +5,7 @@ import { Container } from '@mui/material'
 import Banner from './components/Banner'
 import Cards from './components/Cards'
 import TrickyPart from './components/TrickyPart'
+import TitlebarImageList from './components/TitlebarImageList'
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Banner></Banner>
 			<Cards></Cards>
 			<TrickyPart></TrickyPart>
+			<TitlebarImageList></TitlebarImageList>
 		</div>
 	)
 }

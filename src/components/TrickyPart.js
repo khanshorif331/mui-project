@@ -9,23 +9,7 @@ const TrickyPart = () => {
 					Hello Eid Mubarak
 				</Typography>
 			</Stack>
-			<Box sx={{ flexGrow: 1 }}>
-				<Grid container spacing={2}>
-					<Grid item xs={8}>
-						<Box>xs=8</Box>
-					</Grid>
-					<Grid item xs={4}>
-						<Box>xs=4</Box>
-					</Grid>
-					<Grid item xs={4}>
-						<Box>xs=4</Box>
-					</Grid>
-					<Grid item xs={8}>
-						<Box>xs=8</Box>
-					</Grid>
-				</Grid>
-			</Box>
-			{/* <Grid container columnSpacing='5px'>
+			<Grid container columnSpacing='5px'>
 				<Grid
 					item
 					display='flex'
@@ -40,19 +24,58 @@ const TrickyPart = () => {
 						backgroundColor: 'primary.main',
 						border: '1px solid red',
 						'&:hover': {
-							background: 'red',
+							background: 'black',
+							color: 'white',
 						},
 					}}
 				>
 					<Box
 						// height='300px'
-						sx={{ border: '1px solid black' }}
+						// sx={{ border: '1px solid black' }}
 						display='flex'
 						justifyContent='center'
 						alignItems='center'
 					>
 						Hello Eid Mubarak
 					</Box>
+				</Grid>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={8}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
+				</Grid>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={8}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
 				</Grid>
 				<Grid
 					item
@@ -73,19 +96,178 @@ const TrickyPart = () => {
 				>
 					<Box>Hell Eid Mubarak</Box>
 				</Grid>
-				<Grid item xs={12} sm={6} md={4}>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={3}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
 					<Box>Hell Eid Mubarak</Box>
 				</Grid>
-				<Grid item xs={12} sm={6} md={4}>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={4}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
 					<Box>Hell Eid Mubarak</Box>
 				</Grid>
-				<Grid item xs={12} sm={6} md={4}>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={5}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
 					<Box>Hell Eid Mubarak</Box>
 				</Grid>
-				<Grid item xs={12} sm={6} md={4}>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={2}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
 					<Box>Hell Eid Mubarak</Box>
 				</Grid>
-			</Grid> */}
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={2}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
+				</Grid>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={2}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
+				</Grid>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={2}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
+				</Grid>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={2}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
+				</Grid>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={2}
+					padding={4}
+					sx={{
+						backgroundColor: 'secondary.main',
+						border: '1px solid red',
+						'&:hover': {
+							background: 'red',
+						},
+					}}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+				>
+					<Box>Hell Eid Mubarak</Box>
+				</Grid>
+			</Grid>
 		</Container>
 	)
 }
