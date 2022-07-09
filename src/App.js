@@ -6,6 +6,11 @@ import Banner from './components/Banner'
 import Cards from './components/Cards'
 import TrickyPart from './components/TrickyPart'
 import TitlebarImageList from './components/TitlebarImageList'
+import CollapsibleTable from './components/CollapsibleTable'
+import Footer from './components/Footer'
+// import DatingTime from './components/DatingTime'
+// import TimeLIne from './components/CustomizedTimeline.js'
+// import CustomizedTimeline from './components/CustomizedTimeline'
 
 function App() {
 	return (
@@ -15,6 +20,8 @@ function App() {
 			<Cards></Cards>
 			<TrickyPart></TrickyPart>
 			<TitlebarImageList></TitlebarImageList>
+			<CollapsibleTable></CollapsibleTable>
+			<Footer></Footer>
 		</div>
 	)
 }
